@@ -60,7 +60,7 @@ public class CommentsController : ControllerBase
 
         return Ok(result);
     }
-    /*
+    
     [HttpDelete("{id}")]
     public async Task<IActionResult> Delete(int id)
     {
@@ -72,5 +72,5 @@ public class CommentsController : ControllerBase
 
         return Ok("Comment deleted successfully.");
     }
-    */
+    
 }
